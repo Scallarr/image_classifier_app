@@ -21,7 +21,7 @@ with open ('model.pkl','rb') as f :
     
 st.title("Image Classification with MobileNetV2 by Kasidit Kosit 6531501005")
 
-uploaded_file=st.file_uploader("Upload image :", type["jpg","jpeg","png"])    
+uploaded_file=st.file_uploader("Upload image :", type=["jpg","jpeg","png"])    
 
 if uploaded_file is not None:
     # Display image
